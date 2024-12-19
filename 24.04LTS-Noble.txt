@@ -10,24 +10,22 @@ Components: main restricted universe multiverse
 Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 
 
+deb-src http://us.archive.ubuntu.com/ubuntu/ noble main resttricted
+deb-src http://us.archive.ubuntu.com/ubuntu/ noble-updates main restricted
 
+deb-src http://us.archive.ubuntu.com/ubuntu/ noble universe
+deb-src http://us.archive.ubuntu.com/ubuntu/ noble-updates universe
 
- http://us.archive.ubuntu.com/ubuntu/ noble main resttricted
- http://us.archive.ubuntu.com/ubuntu/ noble-updates main restricted
+deb-src http://us.archive.ubuntu.com/ubuntu/ noble multiverse
+deb-src http://us.archive.ubuntu.com/ubuntu/ noble-updates multiverse
 
- http://us.archive.ubuntu.com/ubuntu/ noble universe
- http://us.archive.ubuntu.com/ubuntu/ noble-updates universe
+deb-src http://us.archive.ubuntu.com/ubuntu/ noble-backports main restricted universe multiverse
 
- http://us.archive.ubuntu.com/ubuntu/ noble multiverse
- http://us.archive.ubuntu.com/ubuntu/ noble-updates multiverse
+deb-src http://us.archive.ubuntu.com/ubuntu/ noble-proposed main resttricted
+deb-src http://us.archive.ubuntu.com/ubuntu/ noble-proposed universe
+deb-src http://us.archive.ubuntu.com/ubuntu/ noble-proposed multiverse
 
- http://us.archive.ubuntu.com/ubuntu/ noble-backports main restricted universe multiverse
-
- http://us.archive.ubuntu.com/ubuntu/ noble-proposed main resttricted
- http://us.archive.ubuntu.com/ubuntu/ noble-proposed universe
- http://us.archive.ubuntu.com/ubuntu/ noble-proposed multiverse
-
- http://security.ubuntu.com/ubuntu/ noble-scurity main restricted
- http://security.ubuntu.com/ubuntu/ noble-scurity universe
- http://security.ubuntu.com/ubuntu/ noble-scurity multiverse
+deb-src http://security.ubuntu.com/ubuntu/ noble-scurity main restricted
+deb-src http://security.ubuntu.com/ubuntu/ noble-scurity universe
+deb-src http://security.ubuntu.com/ubuntu/ noble-scurity multiverse
 
